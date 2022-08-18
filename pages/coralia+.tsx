@@ -31,4 +31,4 @@ function Coralia() {
   );
 }
 
-export default CoraliaPlus;
+export default Coralia;
