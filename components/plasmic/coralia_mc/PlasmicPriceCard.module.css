@@ -1,0 +1,179 @@
+.root {
+  box-shadow: 0px 10px 10px 0px #00000026;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 400px;
+  background: var(--token-VzsLC_8ayoez6a);
+  position: relative;
+  border-radius: 16px;
+}
+.rootprimary {
+  border: 4px solid var(--token-zHZENG2gmUVj3f);
+}
+.rootborders_flatLeft {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.rootborders_flatRight {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.freeBox__qoN6E {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  padding: 32px;
+}
+.freeBox__qoN6E > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.freeBox__qoN6E > :global(.__wab_flex-container) > *,
+.freeBox__qoN6E > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__qoN6E > :global(.__wab_flex-container) > picture > img,
+.freeBox__qoN6E
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.freeBox__aTah {
+  display: flex;
+  flex-direction: row;
+}
+.freeBox__h9HtI {
+  display: flex;
+  position: relative;
+}
+.slotTargetLabel {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+.freeBox__trTcl {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+}
+.freeBox__trTcl > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.freeBox__trTcl > :global(.__wab_flex-container) > *,
+.freeBox__trTcl > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__trTcl > :global(.__wab_flex-container) > picture > img,
+.freeBox__trTcl
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.freeBox__fiCow {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  color: var(--token-E8hs31IGRYtOh3);
+  width: auto;
+}
+.freeBox__rUsn9 {
+  display: flex;
+  position: relative;
+  width: auto;
+}
+.slotTargetDollars {
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--token-E8hs31IGRYtOh3);
+  line-height: 1;
+}
+.divider:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+.freeBox__lf30Z {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  background: var(--token-bm-aRpALfJHECc);
+  height: 100%;
+  min-height: 0;
+  padding: 32px;
+}
+.freeBox__lf30Z > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-height: 0;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.freeBox__lf30Z > :global(.__wab_flex-container) > *,
+.freeBox__lf30Z > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__lf30Z > :global(.__wab_flex-container) > picture > img,
+.freeBox__lf30Z
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 32px;
+}
+.freeBox__q7153 {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+}
+.freeBox__q7153 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.freeBox__q7153 > :global(.__wab_flex-container) > *,
+.freeBox__q7153 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__q7153 > :global(.__wab_flex-container) > picture > img,
+.freeBox__q7153
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.valueProp__p9Mj4:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.svg__olwxS {
+  object-fit: cover;
+  color: #34c759;
+  width: 24px;
+  height: 24px;
+}
+.valueProp__oft8P:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.svg__bunum {
+  object-fit: cover;
+  color: #34c759;
+  width: 24px;
+  height: 24px;
+}

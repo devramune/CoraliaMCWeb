@@ -1,0 +1,1030 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+      "projectApiToken": "jcNJbGkma3EKqY9bGeLXQC4R5xWOX2cIiZ0L7wUNXNl106Ccs9Z6mkFk3iC3Ekyj6MaRgiynntqHUd9akKgw",
+      "projectName": "CoraliaMC",
+      "version": "latest",
+      "cssFilePath": "plasmic/coralia_mc/plasmic_coralia_mc.module.css",
+      "components": [
+        {
+          "id": "zFhblmpd5I2OT",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "UM7ynOTgdS4aGA",
+          "name": "GrimmParks",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicGrimmParks.tsx",
+          "importSpec": {
+            "modulePath": "../pages/grimmparks.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicGrimmParks.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "WHKZkoQfDP8713",
+          "name": "Navbar",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicNavbar.tsx",
+          "importSpec": {
+            "modulePath": "Navbar.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicNavbar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "9NYKUsB_MFZ9og",
+          "name": "Logo",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicLogo.tsx",
+          "importSpec": {
+            "modulePath": "Logo.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicLogo.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "TjNmJ8EACMI288",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "LQDbNqyTI1RvkV",
+          "name": "Divider",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicDivider.tsx",
+          "importSpec": {
+            "modulePath": "Divider.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicDivider.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ZtUpmv_mljRcEB",
+          "name": "ValueProp",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicValueProp.tsx",
+          "importSpec": {
+            "modulePath": "ValueProp.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicValueProp.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "NcN0Aa5WBeOCIo",
+          "name": "ListItem",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicListItem.tsx",
+          "importSpec": {
+            "modulePath": "ListItem.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicListItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "6WeUgNWJmzl7rH",
+          "name": "Banner",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicBanner.tsx",
+          "importSpec": {
+            "modulePath": "Banner.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicBanner.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "IXDCWWj6IE9vKA",
+          "name": "Testimonial",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicTestimonial.tsx",
+          "importSpec": {
+            "modulePath": "Testimonial.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicTestimonial.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "IiR3jQqv0epaDK",
+          "name": "CallToActionSection",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicCallToActionSection.tsx",
+          "importSpec": {
+            "modulePath": "CallToActionSection.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicCallToActionSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "eLHgM1HorTA5C3",
+          "name": "FooterSection",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicFooterSection.tsx",
+          "importSpec": {
+            "modulePath": "FooterSection.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicFooterSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "cJmcb3Cz1mTXYZ",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicTextInput.tsx",
+          "importSpec": {
+            "modulePath": "TextInput.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "XJ33jo-z5_QkE5",
+          "name": "SignUpPrompt",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicSignUpPrompt.tsx",
+          "importSpec": {
+            "modulePath": "SignUpPrompt.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicSignUpPrompt.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "UN7KXdWhMCaApR",
+          "name": "PriceCard",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicPriceCard.tsx",
+          "importSpec": {
+            "modulePath": "PriceCard.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicPriceCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "euzoqoePqSeLwx",
+          "name": "Section",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicSection.tsx",
+          "importSpec": {
+            "modulePath": "Section.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "APCDWXx2Q6o",
+          "name": "ALandDarkAndGrimm",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicALandDarkAndGrimm.tsx",
+          "importSpec": {
+            "modulePath": "../pages/grimmparks/aldg.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicALandDarkAndGrimm.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "VDGf5byMaq6",
+          "name": "Coralia",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicCoralia.tsx",
+          "importSpec": {
+            "modulePath": "../pages/coralia+.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicCoralia.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "jScPezqJucR",
+          "name": "GrimmSplash",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicGrimmSplash.tsx",
+          "importSpec": {
+            "modulePath": "../pages/grimmparks/grimmsplash.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicGrimmSplash.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "sXfvwMwww7Z",
+          "name": "GrimmZiplines",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicGrimmZiplines.tsx",
+          "importSpec": {
+            "modulePath": "../pages/grimmparks/grimmziplines.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicGrimmZiplines.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "8P7gmc407z9",
+          "name": "GrimmSolis",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicGrimmSolis.tsx",
+          "importSpec": {
+            "modulePath": "../pages/grimmparks/grimmziplines/grimmsolis.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicGrimmSolis.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "C_SAWrOKfED",
+          "name": "GrimmLunae",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicGrimmLunae.tsx",
+          "importSpec": {
+            "modulePath": "../pages/grimmparks/grimmziplines/grimmlunae.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicGrimmLunae.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "j6pF-s8fPAPENq",
+          "name": "AppleIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Apple.tsx"
+        },
+        {
+          "id": "CGGBOsPVIftR9u",
+          "name": "GoogleIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Google.tsx"
+        },
+        {
+          "id": "7LzQLzGZ4-1rpI",
+          "name": "HamburgerIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Hamburger.tsx"
+        },
+        {
+          "id": "BXPJj9tcJiKdn6",
+          "name": "SunnyIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Sunny.tsx"
+        },
+        {
+          "id": "hzbl2np_5tCeKN",
+          "name": "HammerIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Hammer.tsx"
+        },
+        {
+          "id": "s2aeMiXbBoZc9B",
+          "name": "TargetIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Target.tsx"
+        },
+        {
+          "id": "KeUnhQHf4fnXbd",
+          "name": "FastIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Fast.tsx"
+        },
+        {
+          "id": "FgKNw6nvSfXoEx",
+          "name": "StrongIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Strong.tsx"
+        },
+        {
+          "id": "N3Q4qxG4dGvc_x",
+          "name": "CheckIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Check.tsx"
+        },
+        {
+          "id": "ReWV2gVegjvClb",
+          "name": "ChevronRightIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__ChevronRight.tsx"
+        },
+        {
+          "id": "Ee4sGqc2aP80wb",
+          "name": "CheckCircleIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__CheckCircle.tsx"
+        },
+        {
+          "id": "Hw8wN5hfAU9FVf",
+          "name": "WandIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Wand.tsx"
+        },
+        {
+          "id": "dwvOkrX0n6DN-m",
+          "name": "TwitterIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Twitter.tsx"
+        },
+        {
+          "id": "iPkVJ_nD-9Imhu",
+          "name": "Image34Icon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Image34.tsx"
+        },
+        {
+          "id": "kKPr-GMhpvdeEA",
+          "name": "LinkedinIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Linkedin.tsx"
+        },
+        {
+          "id": "v6ImPWhUcP_HTu",
+          "name": "SearchIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Search.tsx"
+        },
+        {
+          "id": "8VFc60O2Dv0AwF",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "PproFsRKbq",
+          "name": "PngsvgIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Pngsvg.tsx"
+        },
+        {
+          "id": "DoXit-0csz",
+          "name": "GuildedLogomarkBlacksvgIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__GuildedLogomarkBlacksvg.tsx"
+        },
+        {
+          "id": "kE2tE-N7YrPW",
+          "name": "BarsIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Bars.tsx"
+        },
+        {
+          "id": "omBQi9UVHBa3",
+          "name": "TimesIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Times.tsx"
+        },
+        {
+          "id": "ojGp-ay3pA0J",
+          "name": "LogoWhitesvgIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__LogoWhitesvg.tsx"
+        },
+        {
+          "id": "0wItvkyyYWle",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "Ki2GRQMJeBYT",
+          "name": "ButtonArrowIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__ButtonArrow.tsx"
+        },
+        {
+          "id": "dj_wgWaUcylC",
+          "name": "ShoppingCartIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__ShoppingCart.tsx"
+        },
+        {
+          "id": "Hw9hhKCJNssa",
+          "name": "HeartOIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__HeartO.tsx"
+        },
+        {
+          "id": "bQiIL0q1Wcuj",
+          "name": "ExpandIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Expand.tsx"
+        },
+        {
+          "id": "raYy8wwT_-LY",
+          "name": "StarIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Star.tsx"
+        },
+        {
+          "id": "vM-jiKYootjl",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "RfEwd7BpuEHl",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "U-7WybzL4izt",
+          "name": "QuotessvgIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Quotessvg.tsx"
+        },
+        {
+          "id": "swj1eOSRLQ",
+          "name": "Icon5Icon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Icon5.tsx"
+        },
+        {
+          "id": "OYKeoEgiaq",
+          "name": "_849Bd91B3E734B5E5Fc9Ef875F550158SvgIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon___849Bd91B3E734B5E5Fc9Ef875F550158Svg.tsx"
+        },
+        {
+          "id": "tBsQ5mZYlR",
+          "name": "RestAreasvgIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__RestAreasvg.tsx"
+        },
+        {
+          "id": "L__AFzPigP",
+          "name": "_7A94C12518B17784A31F20Eb6Ceeff64SvgIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon___7A94C12518B17784A31F20Eb6Ceeff64Svg.tsx"
+        },
+        {
+          "id": "q-jpBbWamN",
+          "name": "MountainsByTheIconZ3322972SvgIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__MountainsByTheIconZ3322972Svg.tsx"
+        },
+        {
+          "id": "Gqivseucid",
+          "name": "HomesvgIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Homesvg.tsx"
+        },
+        {
+          "id": "EgjHaZSX2w",
+          "name": "_25719SvgIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon___25719Svg.tsx"
+        },
+        {
+          "id": "uzirSIjHeX",
+          "name": "WindowssvgIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Windowssvg.tsx"
+        },
+        {
+          "id": "wfhkw7TcV",
+          "name": "WindowsNewLogo700X394SvgIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__WindowsNewLogo700X394Svg.tsx"
+        },
+        {
+          "id": "_E6xdwLuP3",
+          "name": "WhiteWindows11IconLogosvgIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__WhiteWindows11IconLogosvg.tsx"
+        },
+        {
+          "id": "B9-b13Tir-",
+          "name": "ApplesvgIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Applesvg.tsx"
+        },
+        {
+          "id": "7DBteKkWLX",
+          "name": "Apple1LogoBlackAndWhitesvgIcon",
+          "moduleFilePath": "plasmic/coralia_mc/icons/PlasmicIcon__Apple1LogoBlackAndWhitesvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "snAc4UoAihIiFj",
+          "name": "desert",
+          "filePath": "../public/plasmic/coralia_mc/images/desert.jpeg"
+        },
+        {
+          "id": "fKipbdC9Geg2es",
+          "name": "logo",
+          "filePath": "../public/plasmic/coralia_mc/images/logo.svg"
+        },
+        {
+          "id": "vU5-T_ntZ3FrNN",
+          "name": "loom",
+          "filePath": "../public/plasmic/coralia_mc/images/loom.svg"
+        },
+        {
+          "id": "4YOXFxVV-CtQ3f",
+          "name": "strapi",
+          "filePath": "../public/plasmic/coralia_mc/images/strapi.svg"
+        },
+        {
+          "id": "OYJpysTU076F6T",
+          "name": "segment",
+          "filePath": "../public/plasmic/coralia_mc/images/segment.svg"
+        },
+        {
+          "id": "3kDrmXm0ZOLptC",
+          "name": "xstate",
+          "filePath": "../public/plasmic/coralia_mc/images/xstate.svg"
+        },
+        {
+          "id": "htA4RJkLDzO1nw",
+          "name": "mapbox",
+          "filePath": "../public/plasmic/coralia_mc/images/mapbox.svg"
+        },
+        {
+          "id": "H8hgoWTz3yaXDv",
+          "name": "wavey",
+          "filePath": "../public/plasmic/coralia_mc/images/wavey.png"
+        },
+        {
+          "id": "WdXLI-en-lwH_k",
+          "name": "sunglasses male",
+          "filePath": "../public/plasmic/coralia_mc/images/sunglassesMale.jpeg"
+        },
+        {
+          "id": "PzthaXJZYXTh0O",
+          "name": "sneakers",
+          "filePath": "../public/plasmic/coralia_mc/images/sneakers.jpeg"
+        },
+        {
+          "id": "kV7XE9mpWPm7QN",
+          "name": "shirt woman",
+          "filePath": "../public/plasmic/coralia_mc/images/shirtWoman.png"
+        },
+        {
+          "id": "CpGjLXpIGBpzHH",
+          "name": "tracy",
+          "filePath": "../public/plasmic/coralia_mc/images/tracy.png"
+        },
+        {
+          "id": "nJ8QiZMlWSK1TC",
+          "name": "elaine",
+          "filePath": "../public/plasmic/coralia_mc/images/elaine.png"
+        },
+        {
+          "id": "nOmY3u2g1dF1C0",
+          "name": "woody",
+          "filePath": "../public/plasmic/coralia_mc/images/woody.png"
+        },
+        {
+          "id": "Eku12YarYG6JWx",
+          "name": "louis",
+          "filePath": "../public/plasmic/coralia_mc/images/louis.jpeg"
+        },
+        {
+          "id": "qzrUgXa9RglbLq",
+          "name": "chart",
+          "filePath": "../public/plasmic/coralia_mc/images/chart.png"
+        },
+        {
+          "id": "Olt0DgwSqX6PHZ",
+          "name": "sparkle",
+          "filePath": "../public/plasmic/coralia_mc/images/sparkle.png"
+        },
+        {
+          "id": "rsV3JAvO18kPzM",
+          "name": "medal",
+          "filePath": "../public/plasmic/coralia_mc/images/medal.png"
+        },
+        {
+          "id": "nsTcjYyqLX5cSP",
+          "name": "trophy",
+          "filePath": "../public/plasmic/coralia_mc/images/trophy.png"
+        },
+        {
+          "id": "1LkvQrFETLKH9X",
+          "name": "meeting",
+          "filePath": "../public/plasmic/coralia_mc/images/meeting.jpeg"
+        },
+        {
+          "id": "sQdswdz72",
+          "name": "Drawing-1.sketchpad.png",
+          "filePath": "../public/plasmic/coralia_mc/images/drawing1Sketchpadpng.png"
+        },
+        {
+          "id": "Rqi3KR6zQ",
+          "name": "2022-07-01_11.57.05.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220701115705Png.png"
+        },
+        {
+          "id": "x-oGFmo1j",
+          "name": "2022-07-01_11.58.17.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220701115817Png.png"
+        },
+        {
+          "id": "pvw04lurq",
+          "name": "image",
+          "filePath": "../public/plasmic/coralia_mc/images/image.png"
+        },
+        {
+          "id": "5PIdERru1jzx",
+          "name": "image 2",
+          "filePath": "../public/plasmic/coralia_mc/images/image2.png"
+        },
+        {
+          "id": "xEd6f1IU3P-E",
+          "name": "image 3",
+          "filePath": "../public/plasmic/coralia_mc/images/image3.jpeg"
+        },
+        {
+          "id": "tNWjUBV9DSD-",
+          "name": "image 4",
+          "filePath": "../public/plasmic/coralia_mc/images/image4.jpeg"
+        },
+        {
+          "id": "9Gk1uZ3epuAZ",
+          "name": "image 5",
+          "filePath": "../public/plasmic/coralia_mc/images/image5.jpeg"
+        },
+        {
+          "id": "hquMbvB1b4W9",
+          "name": "image 6",
+          "filePath": "../public/plasmic/coralia_mc/images/image6.jpeg"
+        },
+        {
+          "id": "Qj5imrjxucNN",
+          "name": "image 7",
+          "filePath": "../public/plasmic/coralia_mc/images/image7.jpeg"
+        },
+        {
+          "id": "O41xv2p0ccXs",
+          "name": "image 8",
+          "filePath": "../public/plasmic/coralia_mc/images/image8.jpeg"
+        },
+        {
+          "id": "CKiihrdOr-u4",
+          "name": "image 9",
+          "filePath": "../public/plasmic/coralia_mc/images/image9.jpeg"
+        },
+        {
+          "id": "lkFUWBxP-sjn",
+          "name": "image 10",
+          "filePath": "../public/plasmic/coralia_mc/images/image10.jpeg"
+        },
+        {
+          "id": "GrDQTEO5Yx6J",
+          "name": "image 11",
+          "filePath": "../public/plasmic/coralia_mc/images/image11.jpeg"
+        },
+        {
+          "id": "kW2CPv-xG00Y",
+          "name": "image 12",
+          "filePath": "../public/plasmic/coralia_mc/images/image12.jpeg"
+        },
+        {
+          "id": "pVtr7XDSx7j5",
+          "name": "image 13",
+          "filePath": "../public/plasmic/coralia_mc/images/image13.jpeg"
+        },
+        {
+          "id": "CcQEppbB4cqO",
+          "name": "image 14",
+          "filePath": "../public/plasmic/coralia_mc/images/image14.jpeg"
+        },
+        {
+          "id": "786fWwwpQjrh",
+          "name": "image 15",
+          "filePath": "../public/plasmic/coralia_mc/images/image15.png"
+        },
+        {
+          "id": "KnXfMHU7-fTc",
+          "name": "image 16",
+          "filePath": "../public/plasmic/coralia_mc/images/image16.png"
+        },
+        {
+          "id": "Y_SOiWPtUzJP",
+          "name": "image 17",
+          "filePath": "../public/plasmic/coralia_mc/images/image17.png"
+        },
+        {
+          "id": "6mcK5nrObDuZ",
+          "name": "image 18",
+          "filePath": "../public/plasmic/coralia_mc/images/image18.png"
+        },
+        {
+          "id": "R7cArUd-vssZ",
+          "name": "image 19",
+          "filePath": "../public/plasmic/coralia_mc/images/image19.png"
+        },
+        {
+          "id": "jxwGf9zT66Xu",
+          "name": "image 20",
+          "filePath": "../public/plasmic/coralia_mc/images/image20.webp"
+        },
+        {
+          "id": "69b3DlyECE-k",
+          "name": "image 21",
+          "filePath": "../public/plasmic/coralia_mc/images/image21.svg"
+        },
+        {
+          "id": "nUZEFyz4op2j",
+          "name": "image 22",
+          "filePath": "../public/plasmic/coralia_mc/images/image22.png"
+        },
+        {
+          "id": "yWidhfG71e-Y",
+          "name": "image 23",
+          "filePath": "../public/plasmic/coralia_mc/images/image23.png"
+        },
+        {
+          "id": "vujAMFD0rY5O",
+          "name": "image 24",
+          "filePath": "../public/plasmic/coralia_mc/images/image24.png"
+        },
+        {
+          "id": "f6D1chY_NHoD",
+          "name": "image 25",
+          "filePath": "../public/plasmic/coralia_mc/images/image25.png"
+        },
+        {
+          "id": "jF3qm0jMaook",
+          "name": "image 26",
+          "filePath": "../public/plasmic/coralia_mc/images/image26.png"
+        },
+        {
+          "id": "gjJOlsxBnsSE",
+          "name": "image 27",
+          "filePath": "../public/plasmic/coralia_mc/images/image27.png"
+        },
+        {
+          "id": "mTLDHJj4LuxV",
+          "name": "image 28",
+          "filePath": "../public/plasmic/coralia_mc/images/image28.png"
+        },
+        {
+          "id": "fGrARaatL_oG",
+          "name": "image 29",
+          "filePath": "../public/plasmic/coralia_mc/images/image29.png"
+        },
+        {
+          "id": "Pr6RU13QZ-GT",
+          "name": "image 30",
+          "filePath": "../public/plasmic/coralia_mc/images/image30.png"
+        },
+        {
+          "id": "j9XZoZMQutW0",
+          "name": "image 31",
+          "filePath": "../public/plasmic/coralia_mc/images/image31.png"
+        },
+        {
+          "id": "BQtCWBpQLkNm",
+          "name": "image 32",
+          "filePath": "../public/plasmic/coralia_mc/images/image32.webp"
+        },
+        {
+          "id": "MInrOpMe8xlY",
+          "name": "image 33",
+          "filePath": "../public/plasmic/coralia_mc/images/image33.webp"
+        },
+        {
+          "id": "ekEHQgdrv",
+          "name": "2022-07-01_11.55.40.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220701115540Png.png"
+        },
+        {
+          "id": "UjkHSTxYa",
+          "name": "2022-07-01_11.56.58.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220701115658Png.png"
+        },
+        {
+          "id": "aCu-G7SaV",
+          "name": "2022-07-01_11.57.53.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220701115753Png.png"
+        },
+        {
+          "id": "6Rqzy_Ef8",
+          "name": "2022-07-01_11.58.02.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220701115802Png.png"
+        },
+        {
+          "id": "XdSL4k-yx",
+          "name": "2022-07-01_11.58.29.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220701115829Png.png"
+        },
+        {
+          "id": "DxfsL25fY",
+          "name": "2022-07-01_11.59.12.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220701115912Png.png"
+        },
+        {
+          "id": "9ZzPQxtYM",
+          "name": "2022-07-01_12.00.03.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220701120003Png.png"
+        },
+        {
+          "id": "n2hKZG2P1",
+          "name": "2022-07-13_19.47.04.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220713194704Png.png"
+        },
+        {
+          "id": "hJ_nefT19",
+          "name": "2022-07-13_19.48.31.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220713194831Png.png"
+        },
+        {
+          "id": "pfT0tJuCM",
+          "name": "2022-07-13_19.48.39.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220713194839Png.png"
+        },
+        {
+          "id": "FQxjipaPp",
+          "name": "2022-07-13_19.48.55.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220713194855Png.png"
+        },
+        {
+          "id": "h95_RMTMO",
+          "name": "2022-07-13_19.49.03.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220713194903Png.png"
+        },
+        {
+          "id": "5WA8cIT_9",
+          "name": "2022-07-01_11.53.15.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220701115315Png.png"
+        },
+        {
+          "id": "KamZSD676",
+          "name": "2022-07-13_19.49.31.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220713194931Png.png"
+        },
+        {
+          "id": "EnZ1hYYPW",
+          "name": "2022-07-13_19.49.39.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220713194939Png.png"
+        },
+        {
+          "id": "afOpU15kG",
+          "name": "Drawing.sketchpad.png",
+          "filePath": "../public/plasmic/coralia_mc/images/drawingsketchpadpng.png"
+        },
+        {
+          "id": "69opZPKyp",
+          "name": "Drawing.sketchpad.png 2",
+          "filePath": "../public/plasmic/coralia_mc/images/drawingsketchpadpng2.png"
+        },
+        {
+          "id": "1Gbs7axXa",
+          "name": "2022-07-16_19.02.54.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220716190254Png.png"
+        },
+        {
+          "id": "St8ckC5b0",
+          "name": "2022-07-16_19.16.22.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220716191622Png.png"
+        },
+        {
+          "id": "tmhh6Lb7_",
+          "name": "2022-07-16_18.59.48.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220716185948Png.png"
+        },
+        {
+          "id": "evphaGgXH",
+          "name": "image 35",
+          "filePath": "../public/plasmic/coralia_mc/images/image35.png"
+        },
+        {
+          "id": "6G96CoPEB",
+          "name": "image 36",
+          "filePath": "../public/plasmic/coralia_mc/images/image36.png"
+        },
+        {
+          "id": "jus_3G7KV",
+          "name": "image 37",
+          "filePath": "../public/plasmic/coralia_mc/images/image37.png"
+        },
+        {
+          "id": "zhXG4wzU0",
+          "name": "image 38",
+          "filePath": "../public/plasmic/coralia_mc/images/image38.png"
+        },
+        {
+          "id": "VX3j27UiO",
+          "name": "image 39",
+          "filePath": "../public/plasmic/coralia_mc/images/image39.png"
+        },
+        {
+          "id": "OizzFmDdI",
+          "name": "image 40",
+          "filePath": "../public/plasmic/coralia_mc/images/image40.png"
+        },
+        {
+          "id": "yTMCLwRUE",
+          "name": "image 41",
+          "filePath": "../public/plasmic/coralia_mc/images/image41.png"
+        },
+        {
+          "id": "G--piNa5N",
+          "name": "image 42",
+          "filePath": "../public/plasmic/coralia_mc/images/image42.webp"
+        },
+        {
+          "id": "JLDy1SyCV",
+          "name": "image 43",
+          "filePath": "../public/plasmic/coralia_mc/images/image43.png"
+        },
+        {
+          "id": "ECGt0t4xC",
+          "name": "image 44",
+          "filePath": "../public/plasmic/coralia_mc/images/image44.png"
+        },
+        {
+          "id": "ZLbu4pQmz",
+          "name": "image 45",
+          "filePath": "../public/plasmic/coralia_mc/images/image45.png"
+        },
+        {
+          "id": "kcds84Shb",
+          "name": "2022-07-17_18.02.06.png",
+          "filePath": "../public/plasmic/coralia_mc/images/_20220717180206Png.png"
+        },
+        {
+          "id": "9K2pBrSGl",
+          "name": "image 46",
+          "filePath": "../public/plasmic/coralia_mc/images/image46.png"
+        },
+        {
+          "id": "_JJ5fBPr6",
+          "name": "clipart347603.png",
+          "filePath": "../public/plasmic/coralia_mc/images/clipart347603Png.png"
+        },
+        {
+          "id": "zC07YJEn3",
+          "name": "Drawing.sketchpad.png 3",
+          "filePath": "../public/plasmic/coralia_mc/images/drawingsketchpadpng3.png"
+        },
+        {
+          "id": "Hr_jLlpCM",
+          "name": "Screen Shot 2022-08-17 at 4.10.48 PM.png",
+          "filePath": "../public/plasmic/coralia_mc/images/screenShot20220817At41048PMpng.png"
+        },
+        {
+          "id": "9XEp-87vI",
+          "name": "Drawing-1.sketchpad.png 2",
+          "filePath": "../public/plasmic/coralia_mc/images/drawing1Sketchpadpng2.png"
+        },
+        {
+          "id": "blOrJgx34",
+          "name": "Drawing-3.sketchpad.png",
+          "filePath": "../public/plasmic/coralia_mc/images/drawing3Sketchpadpng.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "Q-h0UCDNSbyLSQ",
+        "name": "Screen",
+        "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+        "contextFilePath": "plasmic/coralia_mc/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.186",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.186/dist/plasmic.schema.json"
+}
