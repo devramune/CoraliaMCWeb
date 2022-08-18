@@ -199,7 +199,7 @@ function PlasmicGrimmParks__RenderFunc(props: {
                   sty.text__z6JRz
                 )}
               >
-                {"The most amazing amusement parks on all of cgMC."}
+                {"The most amazing amusement parks on all of CoraliaMC."}
               </div>
             </p.Stack>
           </p.Stack>
