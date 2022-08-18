@@ -252,19 +252,6 @@
           "componentType": "page"
         },
         {
-          "id": "VDGf5byMaq6",
-          "name": "Coralia",
-          "type": "managed",
-          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
-          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicCoralia.tsx",
-          "importSpec": {
-            "modulePath": "../pages/coralia+.tsx"
-          },
-          "cssFilePath": "plasmic/coralia_mc/PlasmicCoralia.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "jScPezqJucR",
           "name": "GrimmSplash",
           "type": "managed",
@@ -313,6 +300,19 @@
             "modulePath": "../pages/grimmparks/grimmziplines/grimmlunae.tsx"
           },
           "cssFilePath": "plasmic/coralia_mc/PlasmicGrimmLunae.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "VDGf5byMaq6",
+          "name": "CoraliaPlus",
+          "type": "managed",
+          "projectId": "77KYUYm9JjmMdtJ5Ckst57",
+          "renderModuleFilePath": "plasmic/coralia_mc/PlasmicCoraliaPlus.tsx",
+          "importSpec": {
+            "modulePath": "../pages/coraliaplus.tsx"
+          },
+          "cssFilePath": "plasmic/coralia_mc/PlasmicCoraliaPlus.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }

@@ -129,7 +129,7 @@ function PlasmicNavbar__RenderFunc(props: {
           <Button
             className={classNames("__wab_instance", sty.button__soTrL)}
             color={"navLink" as const}
-            link={"/coralia+" as const}
+            link={"/coraliaplus" as const}
           >
             <div
               className={classNames(
@@ -168,7 +168,7 @@ function PlasmicNavbar__RenderFunc(props: {
           <Button
             className={classNames("__wab_instance", sty.button__poqsc)}
             color={"navLink" as const}
-            link={"https://mcsrvstat.us/server/play.cgmc.ml" as const}
+            link={"https://mcsrvstat.us/server/coraliamc.com" as const}
           >
             <div
               className={classNames(
